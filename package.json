@@ -1,0 +1,26 @@
+{
+  "name": "sessions-demo-using-expressjs",
+  "version": "1.0.0",
+  "description": "This is a demo of how to use sessions in Express.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "Sessions"
+  ],
+  "author": "Salem Nabeel Salem",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "csurf": "^1.11.0",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
